@@ -14,25 +14,84 @@ body{
     align-items: center;
 }
 
-.cabecario{
+#cabecario{
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 54px;
+    background-color: white;
+    border:1px solid rgb(211, 211, 211);
+}
+
+#me{
+    width: 25px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+#instalogo{
+    width: 100px;
+    margin-right: 200px;
+}
+
+#pesquisa{
+    justify-items: center;
+    margin-right: 150px;
+}
+
+h3,h6,p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+
+
+
+#conta{
+    display: flex;
+    background-color: white;
+    border:1px solid whitesmoke;
+    border-radius: 3px;
+
+}
+
+#etc{
+    width: 10px;
+}
+
+#comentarios{
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 
 .iconeC{
-    width: 10%;
+    width: 20px;
+    margin-left: 10px;
+    
 }
 
 .iconeP{
-    width: 25%;
+    width: 20px;
+    margin-right: 10px;
 }
 
-.FTpost{
-    width: 50%;
+#save{
+    width: 35px;
+    margin-left: 110px;
+}
+
+#FTpost{
+    width: 35%;
+    height: 25%;
+}
+
+.fluxologo{
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid rgb(219, 219, 219);
 }
 
 #pesquisa{
@@ -44,9 +103,34 @@ body{
 }
 
 #fundo{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(235, 235, 235);
+}
+
+#post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+}
+
+#infopost{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#interacao{
+    display: flex;
+    background-color: white;
+    border:1px solid whitesmoke;
+
 }
 
 #publicar{
