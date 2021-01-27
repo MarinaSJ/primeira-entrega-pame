@@ -132,7 +132,12 @@ body{
 }
 
 #outros{
-    display: flex;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+#curtido{
+    margin-right: 3px;
 }
 
 h4{
@@ -180,7 +185,9 @@ h3,h6,p{
     font-size: small;
 }
 
-
+h3{
+    margin-right: 3px;
+}
 
 .iconeC{
     width: 20px;
